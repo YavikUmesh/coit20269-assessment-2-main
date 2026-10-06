@@ -1,0 +1,16 @@
+{
+  "name": "studyswap",
+  "private": true,
+  "version": "1.0.0",
+  "description": "StudySwap — student second-hand marketplace (COIT20269 A2, Group D). Server code lives in server/.",
+  "engines": {
+    "node": ">=24 <25",
+    "npm": ">=11"
+  },
+  "scripts": {
+    "setup": "npm install --prefix server",
+    "dev": "npm run dev --prefix server",
+    "test": "npm test --prefix server",
+    "lint": "npm run lint --prefix server"
+  }
+}

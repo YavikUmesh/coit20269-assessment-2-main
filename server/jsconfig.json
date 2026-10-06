@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "checkJs": false,
+        "types": ["node"]
+    },
+    "include": ["src/**/*.js", "scripts/**/*.js"]
+}

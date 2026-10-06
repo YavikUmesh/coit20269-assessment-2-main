@@ -1,0 +1,9 @@
+{
+    "watch": ["src", "scripts"],
+    "ext": "js,json",
+    "ignore": ["node_modules/", "certs/", "*.test.js"],
+    "exec": "node src/index.js",
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
